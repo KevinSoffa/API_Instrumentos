@@ -1,0 +1,6 @@
+fastapi
+pydantic==1.9.0
+pymongo
+pymongo[srv]
+uvicorn==0.18.3
+python-decouple==3.6
