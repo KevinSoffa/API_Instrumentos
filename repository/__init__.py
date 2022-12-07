@@ -1,2 +1,5 @@
 from .criar_repository import criar_repository
 from .listagem_repository import listagem_repository
+from .detalhe_repository import detalhe_repository
+from .atualizar_repository import atualizar_repository
+from .apagar_repository import apagar_repository

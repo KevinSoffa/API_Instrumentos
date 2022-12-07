@@ -1,7 +1,7 @@
 PROJECT = {
     '_id': False,
     'id': {'$toString': '$_id'},
-    'nome_intrumento': True,
+    'nome_instrumento': True,
     'marca': True,
     'modelo': True,
     'est_preco': True,

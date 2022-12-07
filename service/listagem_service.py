@@ -1,4 +1,5 @@
 from repository import listagem_repository
+from fastapi import HTTPException
 
 
 def listagem_service(listagem_dto: dict):
@@ -7,4 +8,7 @@ def listagem_service(listagem_dto: dict):
         listagem_dto
     )
 
-    return response or []
+    if response:
+        return response or []
+
+    raise HTTPException(400)
