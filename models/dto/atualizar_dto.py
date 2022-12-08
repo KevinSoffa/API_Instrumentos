@@ -5,9 +5,9 @@ from pydantic import (
 
 
 class AtualizarDTO(BaseModel):
-    nome_instrumento: str = Field(None)
-    marca: str = Field(None)
-    modelo: str = Field(None)
-    est_preco: int = Field(None)
-    obs: str = Field(None),
-    orquestra: bool = Field(None)
+    nome_instrumento: str = Field(...)
+    marca: str = Field(...)
+    modelo: str = Field(...)
+    est_preco: int = Field(...)
+    obs: str = Field(...)
+    orquestra: bool = Field(...)
