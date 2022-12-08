@@ -1,11 +1,11 @@
-# API_Instrumentos
-API criada com Python/FastAPI com banco de dados MongoDB
+<h1>API_Instrumentos &#x1F4BB</h1>
+<h2>API criada com Python/FastAPI com banco de dados MongoDB &#x1F40D &#x1F343</h2>
 
 <hr>
 
-# Rotas
-## POST
-### /instrumento
+<h1>&#x2705 Rotas</h1>
+<h2>&#x1F7E1 POST</h2>
+<h3>/instrumento</h3>
 
     "nome_instrumento": str, -> Obrigatório
     "marca": str, -> Obrigatório 
@@ -16,20 +16,20 @@ API criada com Python/FastAPI com banco de dados MongoDB
     
 <hr>
 
-## GET ALL
-### /instrumento
+<h2>&#x1F7E2 GET ALL</h2>
+<h3>/instrumento</h3>
 Traz todo os objetos do banco de dados
 
 <hr>
 
-## GET ID
-### /instrumento/{id}
+<h2>&#x1F7E2 GET ID</h2>
+<h3>/instrumento/{id}</h3>
 Traz um objeto específico
 
 <hr>
 
-## UPDATE ID
-### /instrumento/{id}
+<h2>&#x26AA UPDATE ID</h2>
+<h3>/instrumento/{id}</h3>
 
     "nome_instrumento": str, -> Não Obrigatório
     "marca": str, -> Não Obrigatório 
@@ -40,8 +40,8 @@ Traz um objeto específico
     
 <hr>
     
-## DELETE ID
-### /instrumento/{id}
+<h2>&#x1F534 DELETE ID</h2>
+<h3>/instrumento/{id}</h3>
 
 Deleta do banco de dados o Objeto específico
 
