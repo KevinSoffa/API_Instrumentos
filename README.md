@@ -18,6 +18,7 @@
 
 <h2>&#x1F7E2 GET ALL</h2>
 <h3>/instrumento</h3>
+<h3>/instrumento?paginacao_limite={limite}
 Traz todo os objetos do banco de dados
 
 <hr>
