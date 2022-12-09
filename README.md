@@ -31,12 +31,12 @@ Traz um objeto específico
 <h2>&#x26AA UPDATE ID</h2>
 <h3>/instrumento/{id}</h3>
 
-    "nome_instrumento": str, -> Não Obrigatório
-    "marca": str, -> Não Obrigatório 
-    "modelo": str, -> Não Obrigatório
-    "est_preco": int, -> Não Obrigatório
-    "obs": str, -> Não Obrigatório
-    "orquestra": bool -> Não Obrigatório
+    "nome_instrumento": str
+    "marca": str
+    "modelo": str
+    "est_preco": int
+    "obs": str
+    "orquestra": bool
     
 <hr>
     
